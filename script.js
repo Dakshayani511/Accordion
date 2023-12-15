@@ -41,13 +41,7 @@ function createItem(title, desc) {
 			des.style.display = "block"; 
 		} 
 	}); 
-
-    
-            
-
-    
-
-	item.appendChild(head); 
+        item.appendChild(head); 
 	item.appendChild(des); 
 	document.getElementById("menu").appendChild(item); 
 }
